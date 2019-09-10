@@ -66,6 +66,6 @@ class BaiDuTranslater(object):
 
 
 if __name__ == '__main__':
-    query = input('请输出英语：')
+    query = input('请输入英文：')
     aoo = BaiDuTranslater(query)
     aoo.run()
