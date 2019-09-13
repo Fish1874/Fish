@@ -145,5 +145,3 @@ for page in range(1,2):
     rdtime = 20 * numpy.random.rand()
     time.sleep(rdtime)
 print('爬取成功！')
-
-
