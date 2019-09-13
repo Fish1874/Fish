@@ -29,11 +29,11 @@
 
 	- 保存数据
 		- 保存到本地
-			～text, json, csv
+			###### text, json, csv
 		- 保存到数据库
-			~Mysql  关系型数据库
-			~MongoDB    文档型数据库
-			Redis      键值存储数据库
+			###### Mysql  关系型数据库
+			###### MongoDB    文档型数据库
+			###### Redis      键值存储数据库
       
 ######最后还可以用pandas， matplotlib 数据可视化，numpy进行数据分析######
 
