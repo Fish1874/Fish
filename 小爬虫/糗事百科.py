@@ -1,7 +1,7 @@
 import requests
 from lxml import etree
 import json
-import pymongo
+
 
 class TiebaSpider:
     def __init__(self):
