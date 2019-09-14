@@ -1,6 +1,7 @@
 import requests
 from lxml import etree
 import json
+import pymongo
 
 class TiebaSpider:
     def __init__(self):
@@ -34,6 +35,8 @@ class TiebaSpider:
                 f.write(json.dumps(content,ensure_ascii=False))
                 f.write('\n')
         print("保存成功")
+
+
     def run(self):
         url_list = self.get_url_list()
         for url in url_list:
