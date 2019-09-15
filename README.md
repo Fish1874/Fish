@@ -20,8 +20,8 @@
 - 提取数据
     - 数据在页面里
         - 提取内容
-            ###### [正则表达式]()
-            ###### [lxml]()  
+            ###### [正则表达式](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%88%AC%E5%8F%96%E5%86%85%E5%AE%B9.py)
+            ###### [lxml](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/Xpath%E7%88%AC%E5%8F%96%E7%94%B5%E5%BD%B1%E5%A4%A9%E5%A0%82.py)  
             高性能的Python HTML/XML解析器
             ###### [BeautifulSoup]()  
             解析网页神器，可以专门用来解析html
@@ -30,20 +30,20 @@
 
 
 
-    - 数据不在页面里
-        ###### 使用浏览器开发者工具F12， Fidler， Charles等抓包
-        ###### 查找数据的位置，提取构建url
+- 数据不在页面里
+    ###### 使用浏览器开发者工具F12， Fidler， Charles等抓包
+    ###### 查找数据的位置，提取构建url
 
 - 保存数据
-    - [保存到本地]()
+    - [保存到本地](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91.py)
         ###### text, json, csv
     - 保存到数据库
-        ###### [Mysql  关系型数据库]()
+        ###### [Mysql  关系型数据库](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/Mysql%E6%95%B0%E6%8D%AE%E4%BF%9D%E5%AD%98%20.py)
         ###### [MongoDB 文档型数据库]()
         ###### Redis      键值存储数据库
 
 ## 进阶操作：
-- [scrapy 异步爬虫框架]()
+- [scrapy 异步爬虫框架](https://github.com/Fish1874/knowledge/blob/master/python/scrapy%E7%9F%A5%E8%AF%86%E7%82%B9.md)
     - 优点 
         - [异步](https://github.com/Fish1874/knowledge/blob/master/python/%E5%BC%82%E6%AD%A5%E5%8D%8F%E7%A8%8B.md)
         - 支持shell调试
@@ -55,12 +55,12 @@
 - 最后还可以用pandas， matplotlib 数据可视化，numpy进行数据分析
 
 ### 反爬
-- [封ip，封User-gent](https://github.com/Fish1874/Fish/blob/master/%E6%8B%89%E5%8B%BE%E7%BD%91%E5%8F%8D%E7%88%AC.py)
+- [封ip，封User-gent](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/%E6%8B%89%E5%8B%BE%E7%BD%91%E5%8F%8D%E7%88%AC.py)
 - [验证码]()
-- [cookie验证]()
+- [cookie验证](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/crawler-basic-1.py)
 - [JaveScript渲染](https://github.com/Fish1874/Fish/tree/master/JS%E9%80%86%E5%90%91%E7%88%AC%E8%99%AB)
-- [Ajax异步加载](https://github.com/Fish1874/Fish/blob/master/Ajax%E5%8F%8D%E7%88%AC.py)
-- 字体反爬
+- [Ajax异步加载](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/Ajax%E5%8F%8D%E7%88%AC.py)
+- [字体反爬]()
 - 使用算法加密
 
 
