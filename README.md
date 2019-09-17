@@ -32,7 +32,7 @@
             高性能的Python HTML/XML解析器
             - [pyquery](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/bokeyuan.py)
             仿照jQuery的网页解析库
-            - [BeautifulSoup](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/douban/douban/spiders/doubanmovie.py)
+            - [BeautifulSoup](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/%E6%8B%89%E5%8B%BE%E7%BD%91%E5%8F%8D%E7%88%AC.py)
             解析网页神器，可以专门用来解析html
 
 
