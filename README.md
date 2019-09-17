@@ -45,8 +45,8 @@
     - [保存到本地](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/%E7%B3%97%E4%BA%8B%E7%99%BE%E7%A7%91.py)
         ###### text, json, csv
     - 保存到数据库
-        ###### [Mysql  关系型数据库](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/Mysql%E6%95%B0%E6%8D%AE%E4%BF%9D%E5%AD%98%20.py)
-        ###### [MongoDB文档型数据库]()
+        ###### [Mysql  关系型数据库](https://github.com/Fish1874/knowledge/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/pymysql.md)
+        ###### [MongoDB文档型数据库](https://github.com/Fish1874/knowledge/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/mongodb.md)
         ###### Redis      键值存储数据库
 
 ## 进阶操作：
