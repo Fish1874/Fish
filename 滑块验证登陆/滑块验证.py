@@ -78,7 +78,7 @@ class Bilibili_Login():
         bottom, top, left, right = self.get_position(flag)
         print('验证码位置:', bottom, top, left, right)
         screenshot = self.get_screenshot()
-        captcha = screenshot.crop((left, bottom, right, top))
+        captcha = screenshot.crop((left, bottom, right, top))  #crop图片裁剪操作
         captcha.save(name)
         return captcha
 

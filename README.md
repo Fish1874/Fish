@@ -1,4 +1,4 @@
-# 热爱互联网行业，希望能在工作中学到更多東西，提升自身！
+
 ## 爬虫整体流程思路：
 - 准备url
 - 目标网站
@@ -16,7 +16,7 @@
         - [cookie验证](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/crawler-basic-1.py)
         - [JaveScript渲染](https://github.com/Fish1874/Fish/tree/master/JS%E9%80%86%E5%90%91%E7%88%AC%E8%99%AB)
         - [Ajax异步加载](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/Ajax%E5%8F%8D%E7%88%AC.py)
-        - 字体反爬
+        - [字体反爬]()
         - 使用算法加密
     - 如果不登录
         - 维护cooklie会话 可以用session来解决
