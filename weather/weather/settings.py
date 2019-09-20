@@ -2,7 +2,7 @@
 
 # Scrapy settings for weather project
 #
-# For simplicity, this file contains only settings considered important or
+# For simplicity, this new_file.woff contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
 #
 #     https://doc.scrapy.org/en/latest/topics/settings.html
