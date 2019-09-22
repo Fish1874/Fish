@@ -16,7 +16,7 @@
         - [cookie验证](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/crawler-basic-1.py)
         - [JaveScript渲染](https://github.com/Fish1874/Fish/tree/master/JS%E9%80%86%E5%90%91%E7%88%AC%E8%99%AB)
         - [Ajax异步加载](https://github.com/Fish1874/Fish/blob/master/%E5%B0%8F%E7%88%AC%E8%99%AB/Ajax%E5%8F%8D%E7%88%AC.py)
-        - [字体反爬]()
+        - [字体反爬](https://github.com/Fish1874/Fish/blob/master/%E5%AD%97%E4%BD%93%E5%8F%8D%E7%88%AC/%E5%AE%9E%E4%B9%A0%E5%83%A7.py)
         - 使用算法加密
     - 如果不登录
         - 维护cooklie会话 可以用session来解决

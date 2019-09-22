@@ -102,7 +102,7 @@ def get_dict():
             values[i] = ('\\u00'+values[i]).encode('utf-8').decode('unicode_escape')    #提出xml中的字体unicode，将其通过encode('utf-8')进行编码，再decode("unicode_escape")解码出汉字
         else:
             values[i] = ('\\u'+values[i]).encode('utf-8').decode('unicode_escape')
-    word_dict = dict(zip(keys,values))
+    word_dict = dict(zip(keys,values))    #zip()组成元祖，返回一个对象
     return word_dict, keys
 
 
