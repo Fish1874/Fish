@@ -1,5 +1,5 @@
 #(https://github.com/dxxzst/free-proxy-list)
-
+#(http://47.100.21.174:8899/#/)
 import requests
 from bs4 import BeautifulSoup
 import threading
@@ -46,14 +46,21 @@ if __name__ == '__main__':
     soup = BeautifulSoup(r.text,'html.parser')
     table = soup.find_all('table')[1]
     ulist1 = []
-    ulist2 = []
+
     for tr in table.find_all('tr')[1:]:
         a = tr.text.split('\n')
         if a[4] == 'high':
-            if a[3] == 'http':
+            if a[3] == 'https':
                 ulist1.append('{}:{}'.format(a[1], a[2]))
             else:
-                ulist2.append('{}:{}'.format(a[1], a[2]))
+                pass
+    #第二个代理网站
+    url2 = 'http://47.100.21.174:8899/api/v1/proxies?limit=60'
+    r2 = requests.get(url2,headers=headers).json()
+    for scylla in r2['proxies']:
+        ulist1.append('{}:{}'.format(scylla['ip'], scylla['port']))
+
+
 
     goodip = []
     client = MongoClient('localhost')
@@ -64,17 +71,9 @@ if __name__ == '__main__':
     tasks = []              #线程池
     for ip1 in ulist1:
 
-        task = threading.Thread(target=getgoodproxy, args=(ip1,'http',))    #function_name: 需要线程去执行的方法名
+        task = threading.Thread(target=getgoodproxy, args=(ip1,'https',))    #function_name: 需要线程去执行的方法名
         tasks.append(task)                                 #args: 线程执行方法接收的参数，该属性是一个元组，如果只有一个参数也需要在末尾加逗号。
         task.start()
-
-
-
-    for ip2 in ulist2:
-        task = threading.Thread(target=getgoodproxy, args=(ip2,'https',))
-        tasks.append(task)
-        task.start()
-
     for _ in tasks:
         _.join()
 
@@ -92,9 +91,6 @@ proxy_list = list(proxies['ip'])
 proxy = random.choice(proxy_list)
 
 r = requests.get(url,headers=headers,
-                proxies={'https':'https://{}'.format(proxy),
-                         'http': 'http://{}'.format(proxy)}
+                proxies={'https':'https://{}'.format(proxy)}
 
 '''
-
-
