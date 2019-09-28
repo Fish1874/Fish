@@ -18,7 +18,7 @@ def checkip(proxy):
                              timeout=30
                          )
         html = etree.HTML(res.text)
-        ip_address = html.xpath('//dd[@class="fz24"]/text()')   #自己的ip地址
+        ip_address = html.xpath('//dd[@class="fz24"]/text()')
 
         if ip_address[0] == proxy[:-5]:
             return True
