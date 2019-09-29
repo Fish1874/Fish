@@ -9,11 +9,11 @@ from MeiTuanArea.items import AreaItem
 
 class GetAreaSpider(RedisSpider):
     name = 'areas'
-
-    def start_requests(self):
+    redis_key = 'areas:start_url'
+    def parse(self, response):
         # start_url = 'https://www.meituan.com/ptapi/getprovincecityinfo/'
-        redis_key = 'areas:start_url'
-        yield scrapy.Request(redis_key, callback=self.parse_province)
+
+        yield scrapy.Request(response.url, callback=self.parse_province)
 
     def parse_province(self, response):
         """省市+市 1、2 级区域采集"""

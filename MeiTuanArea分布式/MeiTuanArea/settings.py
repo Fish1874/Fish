@@ -44,18 +44,18 @@ USER_AGENT = random.choice(USER_AGENT_LIST)
 #数据保存
 ITEM_PIPELINES = {
    'scrapy_redis.pipelines.RedisPipeline': 300,
-    'MeiTuanArea.pipelines.AreaPipeline': 301,
+    'MeiTuanArea分布式.pipelines.AreaPipeline': 301,
 }
 #代理
 DOWNLOAD_MIDDLEWARES = {
-    'MeiTuanArea.middlewares.RandomProxy': 400
+    'MeiTuanArea分布式.middlewares.RandomProxy': 400
 }
 
 
-BOT_NAME = 'MeiTuanArea'  # 爬虫项目名
+BOT_NAME = 'MeiTuanArea分布式'  # 爬虫项目名
 
-SPIDER_MODULES = ['MeiTuanArea.spiders']  # 爬虫目录设定
-NEWSPIDER_MODULE = 'MeiTuanArea.spiders'  # 爬虫生成目录
+SPIDER_MODULES = ['MeiTuanArea分布式.spiders']  # 爬虫目录设定
+NEWSPIDER_MODULE = 'MeiTuanArea分布式.spiders'  # 爬虫生成目录
 
 ROBOTSTXT_OBEY = False  # 否认协议
 
@@ -87,5 +87,5 @@ MYSQL_DB_NAME = 'sys'
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 SCHEDULER_PERSIST = True  # 调度器数据持久化
-REDIS_URL = "redis://user:port"
+REDIS_URL = "redis://192.168.0.103:6379"
 

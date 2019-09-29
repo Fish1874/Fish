@@ -56,7 +56,7 @@
         - 支持shell调试
     - 缺点
         - 本身不支持分布式，因为scrapy中的调度器是运行在队列中，而队列是在单机内存中，所以服务器上的爬虫无法利用内存的队列进行处理
-- [scrapy-redis分布式]()
+- [scrapy-redis分布式](https://github.com/Fish1874/Fish/tree/master/MeiTuanArea)
     - 可以配合 redis使用分布式
         - 原理是 Scrapy的调度器、去重器&emsp;和&emsp;redis的进行替换，抓取的任务就会加入到redis数据库中，这样就可以进行任务共享操作
 - 最后还可以用pandas， matplotlib 数据可视化，numpy进行数据分析
