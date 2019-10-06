@@ -47,7 +47,7 @@
     - 保存到数据库
         ###### [Mysql  关系型数据库](https://github.com/Fish1874/knowledge/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/pymysql.md)
         ###### [MongoDB文档型数据库](https://github.com/Fish1874/knowledge/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/mongodb.md)
-        ###### Redis      键值存储数据库
+        ###### [Redis  键值存储数据库](https://github.com/Fish1874/knowledge/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/redis.md)
 
 ## 进阶操作：
 - [scrapy 异步爬虫框架](https://github.com/Fish1874/knowledge/blob/master/python/scrapy%E7%9F%A5%E8%AF%86%E7%82%B9.md)
